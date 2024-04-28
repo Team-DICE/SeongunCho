@@ -3,8 +3,6 @@
 #include "DiceGameMode.h"
 #include "DiceCharacter.h"
 #include "UObject/ConstructorHelpers.h"
-
-#include "SMainMenuWidget.h"
 #include "Widgets/SWeakWidget.h"
 #include "Framework/Application/SlateApplication.h"
 
