@@ -17,7 +17,7 @@ AMySphere::AMySphere()
     RootComponent = SphereMesh;
 
     // 스태틱 메시 설정
-    static ConstructorHelpers::FObjectFinder<UStaticMesh> SphereMeshAsset(TEXT("/Script/Engine.StaticMesh'/Game/Mesh/SM_Cylinder.SM_Cylinder'"));
+    static ConstructorHelpers::FObjectFinder<UStaticMesh> SphereMeshAsset(TEXT("/Script/Engine.StaticMesh'/Game/SM_Cylinder.SM_Cylinder'"));
     if (SphereMeshAsset.Succeeded())
     {
         SphereMesh->SetStaticMesh(SphereMeshAsset.Object);
